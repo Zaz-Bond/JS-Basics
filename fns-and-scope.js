@@ -6,7 +6,12 @@ var name = 'Tyler';
 //If the argument you passed in is equal to 'Tyler', return true. If it's not, return false.
 
   //Code Here
-
+var isTyler = function(name) {
+  if (name === 'Tyler') {
+    return true;
+  }
+  
+};
 
 //Next problem
 
@@ -16,6 +21,10 @@ var name = 'Tyler';
 
 
   //Code Here
+var getName = function() {
+  var name = prompt('What is your name?');
+  return name; 
+};
 
 
 //Next Problem
@@ -26,6 +35,13 @@ var name = 'Tyler';
 //then alerts "Welcome, " plus whatever the users name is.
 
   //Code Here
+  var getName = function() {
+  var name = prompt('What is your name?');
+  return name;
+};
+var welcome = function() {
+  alert('welcome ' + getName()); 
+};
 
 
 //Next problem
@@ -36,8 +52,16 @@ var name = 'Tyler';
 //What is the difference between arguments and parameters?
 
   //Answer Here
+  //Parameters are used in calls for example:
+  var hello = function(x) {
 
+  }
+// 'x' above is an parameter
+//but arguments are used after the function is called for example:
+hello(5) {
 
+}
+// 5 is an arguement
 //Next problem
 
 
@@ -46,6 +70,7 @@ var name = 'Tyler';
 
 
   //Answer Here
+  //false, "", 0 , null, undefined, NaN
 
 
 
